@@ -1,0 +1,57 @@
+body{
+    background-color: #0a1f44;
+    color: aliceblue;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3rem;
+}
+
+.input{
+    width: 50%;
+}
+.rows{
+    display: flex;
+    /* grid-template-rows: repeat(3 ifr); */
+    /* grid-template-rows: 1fr; */
+    /* background-color: red; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+    gap: 10;
+    margin-top: 4rem;
+}
+.card{
+    background-color: #5c636a;
+    width:250px;
+    height: 250px;
+    border-radius: 10%;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 1.2em;
+    margin-left: 1.2em;
+}
+
+
+h1 > span{
+    font-size: 0.5rem;
+    color: royalblue;
+}
+
+h5{
+font-size: 1.8rem;
+}
+h5 > sup{
+    background-color: rgb(141, 32, 32);
+    border: red;
+    font-weight: 700;
+}
+h6{
+    font-size: 2.4rem;
+    font-weight: 900;
+}
+img{
+    width: 5rem;
+}
