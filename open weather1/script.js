@@ -31,7 +31,7 @@ btn.addEventListener('click',()=>{
 
                 <h6>${result.main['temp']}<sup>°C</sup></h6>
 
-                <div><img src="http://openweathermap.org/img/w/${result.weather[0]['icon']}.png"></div>
+                <div><img src="http://openweathermap.org/img/w/${result.weather[0]['icon']}.png" alt='${result.weather[0]['description']}'></div>
 
 
                 <p class="card-text">${result.weather[0]['description']}</p>
